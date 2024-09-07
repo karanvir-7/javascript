@@ -1,0 +1,37 @@
+/* https://www.w3schools.com/css/css_inline-block.asp */
+
+/* https://www.w3schools.com/css/css_float_clear.asp */
+
+
+/* to center a element */
+/* <div class="center">
+  <p class="align">I am vertically and horizontally centered.</p>
+</div> */
+
+.center { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
+  }
+  
+  .align{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*-ms-transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
+  }
+
+ /* 2nd Method */
+ .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green; 
+  }
+
+
+
+  /* https://www.w3schools.com/css/css_combinators.asp */
